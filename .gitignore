@@ -1,0 +1,40 @@
+# IDE and local settings
+/.vscode/launch.json
+/.settings/
+/.eide/log/
+/.eide.usr.ctx.json
+
+# Build output directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Keil/EIDE intermediate and output files
+*.o
+*.obj
+*.lst
+*.LST
+*.map
+*.M51
+*.hex
+*.axf
+*.lib
+
+# Keil project generated files
+*.plg
+*.dep
+*.lnp
+*.uvgui.*
+*.uvopt
+*.uvoptx
+*.build_log.htm
+
+# Backup and temp files
+*.bak
+*.tmp
+*~
+
+# EIDE templates
+*.ept
+*.eide-template
