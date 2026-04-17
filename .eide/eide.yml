@@ -1,5 +1,5 @@
 version: "4.1"
-name: UART1
+name: Thermo-Fan
 type: C51
 deviceName: null
 packDir: null
