@@ -45,14 +45,14 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\</OutputDirectory>
-          <OutputName>UART1</OutputName>
+          <OutputDirectory>.\Obj\</OutputDirectory>
+          <OutputName>Thermo-Fan</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
-          <ListingPath>.\</ListingPath>
+          <ListingPath>.\Listing\</ListingPath>
           <HexFormatSelection>0</HexFormatSelection>
           <Merge32K>0</Merge32K>
           <CreateBatchFile>0</CreateBatchFile>
@@ -177,7 +177,7 @@
           </Flash1>
           <bUseTDR>0</bUseTDR>
           <Flash2></Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -324,7 +324,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\SoftProject</IncludePath>
+              <IncludePath>..\SoftProject;.\USER</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -374,32 +374,52 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>New Group</GroupName>
           <Files>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>ad0832.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>UART1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\UART1.c</FilePath>
+              <FilePath>.\USER\ad0832.c</FilePath>
             </File>
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\delay.c</FilePath>
+              <FilePath>.\USER\delay.c</FilePath>
             </File>
             <File>
-              <FileName>lcd.c</FileName>
+              <FileName>dh11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\lcd.c</FilePath>
+              <FilePath>.\USER\dh11.c</FilePath>
             </File>
             <File>
               <FileName>DS18.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\DS18.c</FilePath>
+              <FilePath>.\USER\DS18.c</FilePath>
+            </File>
+            <File>
+              <FileName>ds1302.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\ds1302.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>PID.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\PID.c</FilePath>
+            </File>
+            <File>
+              <FileName>UART1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\UART1.c</FilePath>
             </File>
           </Files>
         </Group>
